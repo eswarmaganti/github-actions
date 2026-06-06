@@ -5,8 +5,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The job was automatically triggered by a ${{ github.event_name }}" event."
-      - run: echo "The job is now running on a ${{ runner.os }} server hosted bu GitHub"
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "The job is now running on a ${{ runner.os }} server hosted by GitHub"
       - run: echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Checkout repository code
         run: actions/checkout@v6
